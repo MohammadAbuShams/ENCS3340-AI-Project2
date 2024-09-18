@@ -1,13 +1,12 @@
 # Spam Email Classification Project
 
-This project aims to classify emails as spam or not-spam using two machine learning algorithms: **K-Nearest Neighbors (K-NN)** and **Multi-Layer Perceptron (MLP)**. The dataset contains email features and labels indicating whether the email is spam.
+This project aims to classify emails as spam or not spam using two machine learning algorithms: **K-Nearest Neighbors (K-NN)** and **Multi-Layer Perceptron (MLP)**. The dataset contains email features and labels indicating whether the email is spam.
 
 ## Table of Contents
 - [Project Description](#project-description)
 - [Dataset](#dataset)
 - [Functions](#functions)
 - [Evaluation Metrics](#evaluation-metrics)
-- [Results](#results)
 - [Experiments](#experiments)
 - [Future Work](#future-work)
 - [Contributors](#contributors)
@@ -23,8 +22,6 @@ Both models are trained and evaluated on a dataset containing email features and
 ## Dataset
 
 The dataset, `spambase.csv`, contains 4601 examples. Each example has 58 attributes (57 features and 1 label). The label is `1` for spam and `0` for not spam.
-
-More information about the dataset can be found [here](https://archive.ics.uci.edu/dataset/94/spambase).
 
 
 ### Functions
@@ -51,18 +48,6 @@ Formulae:
 - Accuracy = (TP + TN) / (TP + FP + TN + FN)
 - F1-score = 2 * (Precision * Recall) / (Precision + Recall)
 
-## Results
-
-The evaluation metrics for both K-NN and MLP classifiers are:
-
-| Metric     | K-NN       | MLP        |
-|------------|------------|------------|
-| Accuracy   | XX%        | XX%        |
-| Precision  | XX%        | XX%        |
-| Recall     | XX%        | XX%        |
-| F1-score   | XX%        | XX%        |
-
-Note: Replace `XX%` with the actual results obtained from your run.
 
 ## Experiments
 
