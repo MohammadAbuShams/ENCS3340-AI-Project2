@@ -60,3 +60,8 @@ Formulae:
 - **Improvements for K-NN**: Explore other distance metrics like Manhattan or Minkowski distance and test with different values of k.
 - **Feature Selection**: Applying feature selection techniques could reduce the dimensionality of the dataset, potentially improving model performance.
 
+
+## Contributors
+
+- [Mohammad AbuShams](https://github.com/MohammadAbuShams)
+- [Faten Sultan](https://github.com/fatenSul)
